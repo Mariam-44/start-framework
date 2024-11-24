@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .form-control{
+       @apply w-full border-b border-gray-300 rounded focus:outline-none focus:border-b placeholder-slate-500 py-3 ps-3
+    }
+}
